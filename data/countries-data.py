@@ -1,4 +1,4 @@
-[
+countries = [
     {
         "name": "Afghanistan",
         "capital": "Kabul",
@@ -2618,3 +2618,5 @@
         "currency": "Botswana pula"
     }
 ]
+
+population_ten = sorted(lambda x : x.["population"])[:10]
